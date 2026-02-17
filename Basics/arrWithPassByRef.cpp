@@ -16,4 +16,4 @@ int main(){
     doSomething(arr,n);
     cout<<arr[0]<<" this is the value in main fun";
     return 0;
-}
+    }
