@@ -14,8 +14,8 @@ int main(){
             cout<<" "<<"*"<<" ";
         }
         //last pattern
-        for(int j=1; j<=i; j++){
-            cout<<" "<<i<<" ";
+        for(int j=i; j>=1; j--){
+            cout<<" "<<j<<" ";
         }
         cout<<endl;
     }
