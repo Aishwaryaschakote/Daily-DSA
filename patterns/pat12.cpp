@@ -5,6 +5,16 @@ int main(){
     int n;
     cout<<"Enter n:"<<endl;
     cin>>n;
+    for(int i= 1; i<=n; i++){
+        for(int j=1; j<=i; j++){
+            cout<<" "<<j<<" ";
+        }
+        //for spaces
+        for(int j=1; j<=2*(n-i); j++){
+            cout<<" "<<"*"<<" ";
+        }
+        cout<<endl;
+    }
     
     
     
