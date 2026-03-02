@@ -11,7 +11,7 @@ int main(){
         }
         //for spaces
         for(int j=1; j<=2*(n-i); j++){
-            cout<<" "<<"*"<<" ";
+            cout<<" "<<" "<<" ";
         }
         //last pattern
         for(int j=i; j>=1; j--){
