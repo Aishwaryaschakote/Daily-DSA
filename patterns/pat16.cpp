@@ -6,8 +6,8 @@ int main(){
     cout<<"Enter n:"<<endl;
     cin>>n;
     for(int i= 0; i<=n; i++){
-        for(int j=1; j<=n-i; j++){
-            cout<<" "<<char(j+64)<<" ";
+        for(int j=1; j<=i; j++){
+            cout<<" "<<char(i+64)<<" ";
         }
        
         cout<<endl;
