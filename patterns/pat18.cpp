@@ -4,24 +4,13 @@ using namespace std;
 int main(){
     int n;
     cout<<"Enter n:"<<endl;
-    cin>>n;
+    cin>>n; //4
     for(int i= 0; i<n; i++){
-        //spaces
-
-        for(int j=1; j<=n-i-1; j++){
-            cout<<" ";
+        
+      //  for(char ch = char(n+64); ch>char(i+64); ch--){
+      for(char ch = char(n - i + 64); ch <= char(n + 64); ch++){
+            cout<<ch<<" ";
         }
-        char ch='A';
-        int breakpoint = (2*i+1)/2;
-        for(int j=1; j<=2*i+1; j++){
-            cout<<ch;
-        }
-        //spaces
-
-        for(int j=1; j<=n-i-1; j++){
-            cout<<" ";
-        }
-       
         cout<<endl;
     }
     return 0;
