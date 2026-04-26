@@ -30,13 +30,13 @@ int partition(vector<int>&arr, int low, int high){
 
 vector<int> quickSort(vector<int>&arr, int low, int high){
     if(low < high){
-        int pivotIdx = partition(arr, low, high);
+        int pivotIdx = partition(arr, low, high);//funtion call to finding pivot idx
 
-        quickSort(arr, low, pivotIdx -1);
-        quickSort(arr, pivotIdx +1, high);
+        quickSort(arr, low, pivotIdx -1);//repeates until left half is sorted
+        quickSort(arr, pivotIdx +1, high);//repeates until right half is sorted
 
     }
-    return arr;
+    return arr;//returns a sorted arr
 }
 
 
