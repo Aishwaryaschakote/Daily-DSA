@@ -2,14 +2,17 @@
 using namespace std;
 
 int main(){
-
-    try{
     
-    }
+    int age;
+    string name;
 
-    catch(...){
-        cout<<"error"<<endl;
-    }
+    cin>>age;
+    cin.ignore();
+    getline(cin, name);
+    
+    cout<<"Age: "<<age<<endl;
+    cout<<"Name: "<<name<<endl;
+    
 return 0;
 
 }
